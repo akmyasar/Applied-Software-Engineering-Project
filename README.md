@@ -28,27 +28,47 @@ The collected data can later be used for:
 ---
 
 
-# Pipeline Architecture
+## 📂 Project Structure
 
-The acquisition pipeline follows this workflow:
-
-
-Web Repositories
-↓
-Dataset Search
-↓
-Metadata Extraction
-↓
-File Download
-↓
-Local Storage
-↓
-SQLite Metadata Database
-↓
-CSV Export
-
-
----
+```
+Applied-Software-Engineering-Project
+│
+├── data
+│   ├── raw_downloads
+│   │   └── zenodo/
+│   │       └── project_folder/
+│   │
+│   └── metadata
+│       ├── qdarchive.db
+│       └── metadata.csv
+│
+├── src
+│   ├── main.py
+│   │
+│   ├── pipeline
+│   │   └── download_pipeline.py
+│   │
+│   ├── scrapers
+│   │   ├── zenodo_scraper.py
+│   │   └── dataverse_scraper.py
+│   │
+│   ├── database
+│   │   └── db_manager.py
+│   │
+│   └── utils
+│       ├── file_utils.py
+│       └── metadata_extractor.py
+│
+├── config
+│   └── config.yaml
+│
+├── notebooks
+│
+├── logs
+│
+├── requirements.txt
+└── README.md
+```
 
 # Data Sources
 

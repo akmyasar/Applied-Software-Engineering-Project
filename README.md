@@ -27,36 +27,6 @@ The collected data can later be used for:
 
 ---
 
-# Project Structure
-
-'''
-Applied-Software-Engineering-Project
-│
-├── src
-│ ├── main.py
-│ ├── pipeline
-│ │ └── download_pipeline.py
-│ ├── scrapers
-│ │ └── zenodo_scraper.py
-│ ├── database
-│ │ └── db_manager.py
-│ └── utils
-│ ├── file_utils.py
-│ └── metadata_extractor.py
-│
-├── data
-│ ├── raw_downloads
-│ └── metadata
-│
-├── logs
-├── notebooks
-├── config
-│
-├── requirements.txt
-└── README.md
-
-'''
----
 
 # Pipeline Architecture
 

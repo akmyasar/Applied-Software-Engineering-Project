@@ -1,0 +1,139 @@
+id,project_id,keyword
+1,1,adolescents
+2,1,violence
+3,1,substance abuse
+4,1,child development
+5,1,children
+6,1,community organizations
+7,1,community
+8,1,deliquent behaviors
+9,1,neighborhoods
+10,1,neighborhood conditions
+11,1,social control
+12,1,social indicators
+13,10,Harvard
+14,14,Abortion
+15,14,Parental stress
+16,21,Development of Achievement Motivation
+17,35,veto players
+18,35,presidentialism
+19,61,Supreme Court
+20,61,Latin America
+21,61,Judicial politics
+22,69,"Conflict, African Countries, political violence, African politics, Political economy, Political development"
+23,78,"national accounts, national money, national trade"
+24,79,"nutrition, health, anthropometrics, inequality, colonial, Kenya, Economic history, Africa, Economics"
+25,81,presidentialism
+26,81,QCA (qualitative comparative analysis)
+27,81,fuzzy sets
+28,81,presidential crises
+29,82,"governance, Africa"
+30,83,presidents
+31,84,"Electoral competition, executive selection process, Electoral Institutions, political indices , democracy,"
+32,86,"political economy, sub-Saharan Africa, African political institutions, investment, economic growth, ethnicity, human capital, institutions, political participation, violence, African political economy"
+33,88,GDP
+34,88,Growth
+35,88,Investment
+36,88,Productivity
+37,88,Information Technology
+38,93,Boston
+39,93,Retirement
+40,96,Population
+41,96,Massachusetts
+42,96,1930-2000
+43,108,"African political economy, panel estimation, Political Regime type, Political Participation, Military Expenditure, General Fiscal Policy, Dependency and Debt Measures, General Trade indicators, political decision making"
+44,110,GDP
+45,110,Growth
+46,110,Investment
+47,110,Productivity
+48,110,Information Technology
+49,113,"Political Violence, Africa"
+50,115,Latin America
+51,115,Presidents
+52,118,Aggregate Data
+53,118,Demography
+54,118,Life Tables
+55,118,Morbidity
+56,118,Mortality
+57,118,Stationarity
+58,121,Elections
+59,127,Political parties
+60,144,Ability Indices
+61,144,College students
+62,144,Achievement motivation
+63,146,Divorce
+64,159,Academic Achievement
+65,159,Bulimia
+66,164,Academic Achievement
+67,164,Adolescents
+68,166,"Homelessness, Families, Low-income, Children, Female-Headed Households"
+69,173,Adoption
+70,177,Abortion
+71,187,Achievement
+72,187,Achievement motivation
+73,187,African American
+74,187,Adolescent
+75,189,"Religion, Relationships, Students, Parents, College, High School, African American, Latina/Latino, Education, Family"
+76,190,Academic Achievement
+77,190,Bulimia
+78,211,prenatal; infants; antisocial behavior; child development; children; deliquent behaviors; family conditions; social control; social indicators
+79,215,Achievement anxiety test
+80,227,Academic Achievement
+81,227,Children
+82,227,Alternative Family
+83,230,mid-life
+84,230,qualitative
+85,242,Achenbach Child Behavior Checklist
+86,242,Teacher form
+87,243,Productivity
+88,243,R&D
+89,243,Spillover
+90,251,Achievement motivation
+91,251,College students
+92,253,Abortion
+93,253,Political Activists
+94,257,Radcliffe
+95,264,Academy of Management
+96,266,Achievement
+97,266,African American
+98,266,Women
+99,266,Professional
+100,270,Achievement motivation
+101,270,Entrepreneurs
+102,277,Achievement
+103,277,Children's readers
+104,280,Abortion
+105,293,Achievement motivation
+106,293,Health
+107,296,Bulimia
+108,296,Eating disorders
+109,315,Abortion
+110,315,Therapeutic abortion
+111,315,Psychological outcomes of abortion
+112,319,Academic Achievement
+113,319,Hyperkinetic
+114,319,Children
+115,320,Achievement anxiety
+116,320,College students
+117,327,Achievement motivation
+118,327,Adolescents
+119,327,Females
+120,330,Academic Achievement
+121,330,Personality development
+122,342,Academic achievement
+123,342,College students
+124,343,Longitudinal
+125,343,Ego-control
+126,343,Ego-resiliency
+127,343,Multi-measure
+128,343,Multiperiod
+129,344,Academic Achievement
+130,344,Achievement
+131,344,preschool educational intervention
+132,344,Preschool educational intervention
+133,348,Achievement
+134,348,Social Motives of Achievement
+135,355,Achievement
+136,355,Childhood
+137,355,Adolescent behavior
+138,381,"Early Head Start, Education, Low Income, Poor Families, African-American, Fathers, Latino"

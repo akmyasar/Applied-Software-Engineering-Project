@@ -1,0 +1,552 @@
+id,project_id,name,role
+1,1,"Earls, Felton J.",AUTHOR
+2,1,"Brooks-Gunn, Jeanne",AUTHOR
+3,1,"Raudenbush, Stephen W.",AUTHOR
+4,1,"Sampson, Robert J.",AUTHOR
+5,2,"Barnes, Bonnie Mueller",AUTHOR
+6,3,Honor E. McClellan,AUTHOR
+7,4,Grace K. Baruch,AUTHOR
+8,4,Rosalind C. Barnett,AUTHOR
+9,5,"Snarey, John",AUTHOR
+10,5,"Reimer, Joseph B.",AUTHOR
+11,5,"Kohlberg, Lawrence",AUTHOR
+12,6,William Douglas,AUTHOR
+13,7,"Avery, Donna M.",AUTHOR
+14,8,"Finney, Ruth Sutherlin",AUTHOR
+15,9,"Barnett, Rosalind C.",AUTHOR
+16,10,"Bailey, Susan McGee",AUTHOR
+17,10,"Burrell, Barbara",AUTHOR
+18,11,"Atchley, Robert C.",AUTHOR
+19,12,"Risman, Barbara Jane",AUTHOR
+20,13,"Franklin, Diane W.",AUTHOR
+21,14,"Smith, Margaret T.",AUTHOR
+22,15,"Kelly, E. Lowell (Deceased)",AUTHOR
+23,16,"McAdoo, Harriette Pipes",AUTHOR
+24,17,"Suarez-Orozco, Carola",AUTHOR
+25,17,"Suarez-Orozco, Marcelo",AUTHOR
+26,18,Cynthia Allen,AUTHOR
+27,19,"Michelson, William M.",AUTHOR
+28,20,"Barnes, Bonnie Mueller",AUTHOR
+29,20,"Endicott, Jean",AUTHOR
+30,21,"Ratliff, Elyse Sutherland",AUTHOR
+31,22,"Lenore J. Weitzman,",AUTHOR
+32,23,"Earls, Felton J.",AUTHOR
+33,24,"Kellam, Sheppard",AUTHOR
+34,24,"Ensminger, Margaret",AUTHOR
+35,24,"Branch, Jeannette",AUTHOR
+36,25,"Elias, Marjorie T.",AUTHOR
+37,26,"McAdoo, Harriette Pipes",AUTHOR
+38,27,"Bozett, Frederick W.",AUTHOR
+39,28,"Bozett, Frederick W.",AUTHOR
+40,29,"Brett, Belle",AUTHOR
+41,29,"Elliott, Jane",AUTHOR
+42,30,National Center for Education Statistics,AUTHOR
+43,31,Henry A. Murray Research Center,AUTHOR
+44,32,"Holtzman, Wayne H.",AUTHOR
+45,33,"Belle, Deborah",AUTHOR
+46,34,Correlates of War Project,AUTHOR
+47,35,Aníbal Pérez-Liñán,AUTHOR
+48,35,Juan Carlos Rodríguez-Raga,AUTHOR
+49,36,"Newman, Katherine S.",AUTHOR
+50,37,"Malley-Morrison, Kathleen",AUTHOR
+51,38,"Schroedel, Jean Reith",AUTHOR
+52,39,Mary Lindenstein Walshok,AUTHOR
+53,40,"Lipman-Blumen, Jean",AUTHOR
+54,41,"Stolz, Lois Meek",AUTHOR
+55,42,"Mawardi, Betty Hosmer",AUTHOR
+56,43,"Baruch, Grace K.",AUTHOR
+57,44,Harvard-Radcliffe Child Care Council,AUTHOR
+58,45,"Lopata, Helena Z.",AUTHOR
+59,46,"Birnbaum, Judith",AUTHOR
+60,47,"Taylor, Suzanne Saunders",AUTHOR
+61,48,"Agbayani-Siewert, Pauline",AUTHOR
+62,49,"Glueck, Sheldon",AUTHOR
+63,49,"Glueck, Eleanor Touroff",AUTHOR
+64,50,"Ross, Margaret C.",AUTHOR
+65,51,"Walzer, Judith B.",AUTHOR
+66,52,"Newberger, Carolyn Moore",AUTHOR
+67,53,"Weissberg, Charlotte (Deceased)",AUTHOR
+68,54,"Reid-Merritt, Patricia",AUTHOR
+69,55,Rosalind C. Barnett,AUTHOR
+70,55,Nancy L. Marshall,AUTHOR
+71,56,"Angrist, Shirley S.",AUTHOR
+72,56,"Almquist, Elizabeth M.",AUTHOR
+73,57,"Baumrind, Diana",AUTHOR
+74,58,Beverly Daniel Tatum,AUTHOR
+75,59,Rose Laub Coser (Deceased),AUTHOR
+76,59,Andrew Perrin (Designated Owner of the data),AUTHOR
+77,60,Correlates of War Project,AUTHOR
+78,61,Anibal Perez-Linan,AUTHOR
+79,61,Andrea Castagnola,AUTHOR
+80,62,David E. Lewis,AUTHOR
+81,63,"Stoper, Emily",AUTHOR
+82,64,J. C. Loehlin,AUTHOR
+83,64,R. C.Nichols,AUTHOR
+84,65,David E. Lewis,AUTHOR
+85,66,David E. Lewis,AUTHOR
+86,67,US Department of Education: Institute of Education Sciences,AUTHOR
+87,68,Donahue Institute,AUTHOR
+88,69,Robert Bates,AUTHOR
+89,69,Karen Feree,AUTHOR
+90,69,James Habyarimana,AUTHOR
+91,69,Macartan Humphreys,AUTHOR
+92,69,Smita Singh,AUTHOR
+93,70,Nathan J. Kelly,AUTHOR
+94,71,Correlates of War Project,AUTHOR
+95,72,Nathan J. Kelly,AUTHOR
+96,73,Correlates of War Project,AUTHOR
+97,74,Correlates of War Project,AUTHOR
+98,75,Census Bureau 2000,AUTHOR
+99,76,"Nadelson, Carol C.",AUTHOR
+100,76,"Notman, Malkah T.",AUTHOR
+101,77,"Greenhill, Brian",AUTHOR
+102,78,Robert Bates,AUTHOR
+103,78,Karen Feree,AUTHOR
+104,78,James Habyarimana,AUTHOR
+105,78,Macartan Humphreys,AUTHOR
+106,78,Smita Singh,AUTHOR
+107,79,Alexander Moradi,AUTHOR
+108,80,Correlates of War Project,AUTHOR
+109,81,Anibal Perez-Linan,AUTHOR
+110,82,Robert I. Rotberg,AUTHOR
+111,82,Rachel M. Gisselquist,AUTHOR
+112,83,"Perez-Linan, Anibal",AUTHOR
+113,84,"Bates, Robert",AUTHOR
+114,84,"Feree, Karen",AUTHOR
+115,84,"Habyarimana, James",AUTHOR
+116,84,"Humphreys, Macartan",AUTHOR
+117,84,"Singh, Smita",AUTHOR
+118,85,"Jette, Alan",AUTHOR
+119,86,Robert Bates,AUTHOR
+120,86,Karen Feree,AUTHOR
+121,86,James Habyarimana,AUTHOR
+122,86,Macartan Humphreys,AUTHOR
+123,86,Smita Singh,AUTHOR
+124,87,"Fogarty, Brian",AUTHOR
+125,87,"Kilburn, Whitt",AUTHOR
+126,87,"Kelly, Nathan J.",AUTHOR
+127,88,Dale W. Jorgenson,AUTHOR
+128,88,Kevin J. Stiroh,AUTHOR
+129,89,"Kelly, Nathan J.",AUTHOR
+130,89,"Morgan, Jana",AUTHOR
+131,90,"Cote, Paul",AUTHOR
+132,90,"Boch, Matthew",AUTHOR
+133,91,Yusaku Horiuchi,AUTHOR
+134,91,Kosuke Imai,AUTHOR
+135,91,Naoko Taniguchi,AUTHOR
+136,92,"Population Division, US Census Bureau",AUTHOR
+137,93,Alicia H. Munnell,AUTHOR
+138,93,Steven A. Sass,AUTHOR
+139,93,and Mauricio Soto,AUTHOR
+140,94,Correlates of War Project,AUTHOR
+141,95,Donahue Institute,AUTHOR
+142,96,"Population Division, US Census Bureau",AUTHOR
+143,97,National Center for Education Statistics,AUTHOR
+144,98,Daniel J. Hopkins,AUTHOR
+145,99,Nathan J. Kelly,AUTHOR
+146,100,Page Fortna,AUTHOR
+147,101,Correlates of War Project,AUTHOR
+148,102,Correlates of War Project,AUTHOR
+149,103,Correlates of War Project,AUTHOR
+150,104,"Berger, Helen A.",AUTHOR
+151,104,"Leach, Evan A.",AUTHOR
+152,104,"Shaffer, Leigh S.",AUTHOR
+153,105,Nathan J. Kelly,AUTHOR
+154,106,Nathan J. Kelly,AUTHOR
+155,107,Daniel J. Hopkins,AUTHOR
+156,108,Robert Bates,AUTHOR
+157,108,Karen Feree,AUTHOR
+158,108,James Habyarimana,AUTHOR
+159,108,Macartan Humphreys,AUTHOR
+160,108,Smita Singh,AUTHOR
+161,109,Claudio Cioffi-Revilla,AUTHOR
+162,109,David Lai,AUTHOR
+163,110,Dale Jorgenson,AUTHOR
+164,111,Beth A. Simmons,AUTHOR
+165,111,Daniel J. Hopkins,AUTHOR
+166,112,Correlates of War Project,AUTHOR
+167,113,Robert Bates,AUTHOR
+168,113,Karen Feree,AUTHOR
+169,113,James Habyarimana,AUTHOR
+170,113,Macartan Humphreys,AUTHOR
+171,113,Smita Singh,AUTHOR
+172,114,Correlates of War Project,AUTHOR
+173,115,"Morgenstern, Scott, Juan Javier Negri, and Aníbal Pérez-Liñán",AUTHOR
+174,116,Correlates of War Project,AUTHOR
+175,117,Robert I. Rotberg,AUTHOR
+176,117,Rachel M. Gisselquist,AUTHOR
+177,118,Kosuke Imai,AUTHOR
+178,118,Samir Soneji,AUTHOR
+179,119,Donahue Institute,AUTHOR
+180,120,Donahue Institute,AUTHOR
+181,121,U.S. Election Assistance Commission,AUTHOR
+182,122,Agata Blaut,AUTHOR
+183,123,Census Bureau 2004,AUTHOR
+184,124,Donahue Institute,AUTHOR
+185,125,Alan Dunne,AUTHOR
+186,126,Donahue Institute,AUTHOR
+187,127,Anibal Perez-Linan,AUTHOR
+188,128,Census Bureau Construction Statistics,AUTHOR
+189,129,"Morse, Cecily O.",AUTHOR
+190,130,"Sears, Robert R.",AUTHOR
+191,131,"Lowe, Candace",AUTHOR
+192,132,"Flexman, Nancy Ann",AUTHOR
+193,133,"Earls, Felton J.",AUTHOR
+194,134,"Campbell, D'Ann",AUTHOR
+195,135,"Moen, Phyllis",AUTHOR
+196,136,"Epstein, Cynthia Fuchs",AUTHOR
+197,137,"Bengtson, Vern L.",AUTHOR
+198,137,"Gatz, Margaret",AUTHOR
+199,138,"Damon, William",AUTHOR
+200,138,"Phelps, Erin",AUTHOR
+201,139,"Gramick, Jeannine",AUTHOR
+202,140,"Miller, Warren B.",AUTHOR
+203,141,Larry Kurdek,AUTHOR
+204,142,"McCloskey, Laura",AUTHOR
+205,143,"Rosen, Ellen Israel",AUTHOR
+206,144,"Horner, Matina Souretis",AUTHOR
+207,145,"Hoffman, Lois Wladis",AUTHOR
+208,146,"Spanier, Graham B.",AUTHOR
+209,147,"Wilton, Nancy Cetlin",AUTHOR
+210,148,"Phelps, Erin",AUTHOR
+211,148,"Zucconi, Tanya",AUTHOR
+212,149,"White, Robert W.",AUTHOR
+213,150,"Hansen, Donald A.",AUTHOR
+214,151,"Romer, Nancy",AUTHOR
+215,152,"Feldman, Harold",AUTHOR
+216,152,"Feldman, Margaret",AUTHOR
+217,153,"Eccles, Jacquelynne S.",AUTHOR
+218,154,"Horton, Nicholas J.",AUTHOR
+219,155,"Busse, Ewald W.",AUTHOR
+220,155,"Siegler, Ilene C.",AUTHOR
+221,155,"George, Linda K.",AUTHOR
+222,155,"Palmore, Erdman",AUTHOR
+223,155,"Maddox, George L.",AUTHOR
+224,155,"Nowlin, John B.",AUTHOR
+225,156,"Zuckerman, Diane M.",AUTHOR
+226,157,"Gong-Guy, Elizabeth",AUTHOR
+227,158,"Ginzberg, Eli",AUTHOR
+228,158,"Yohalem, Alice",AUTHOR
+229,159,"Heatherton, Todd F.",AUTHOR
+230,160,"Davidoff, Ida",AUTHOR
+231,160,"Platt, Marjorie",AUTHOR
+232,161,"Edwards, Carl N.",AUTHOR
+233,162,"Eccles, Jacquelynne S.",AUTHOR
+234,163,"Verba, Sidney",AUTHOR
+235,163,"DiNunzio, Joseph",AUTHOR
+236,163,"Spaulding, Christina",AUTHOR
+237,164,"Eccles, Jacquelynne S.",AUTHOR
+238,165,"Giele, Janet Zollinger",AUTHOR
+239,166,"Bassuk, Ellen L.",AUTHOR
+240,167,"Goodman, Natalie C.",AUTHOR
+241,168,"Alexander, Karl L.",AUTHOR
+242,168,"Entwisle, Doris R.",AUTHOR
+243,169,Rand Conger,AUTHOR
+244,170,"Berger, Alan S.",AUTHOR
+245,171,"Veroff, Joseph",AUTHOR
+246,171,"Hatchett, Shirley",AUTHOR
+247,171,"Douvan, Elizabeth Ann Malcolm",AUTHOR
+248,171,"Orbuch, Terry",AUTHOR
+249,172,"Lamont, Michèle",AUTHOR
+250,173,"Cadoret, Remi J. (Deceased)",AUTHOR
+251,174,"Kahn, Janet R.",AUTHOR
+252,174,"Roberts, Elizabeth",AUTHOR
+253,174,"Smith, Kevin",AUTHOR
+254,175,"Fiske, Marjorie Lowenthal",AUTHOR
+255,175,"Thurnher, Majda T.",AUTHOR
+256,175,"Chiriboga, David A.",AUTHOR
+257,176,"Gurin, Gerald",AUTHOR
+258,176,"Veroff, Joseph (Deceased)",AUTHOR
+259,176,"Feld, Sheila",AUTHOR
+260,177,"Granberg, Donald",AUTHOR
+261,178,"Traupmann-Pillemer, Jane",AUTHOR
+262,179,"Salt, Patricia",AUTHOR
+263,180,"Fox, Margaret Louise",AUTHOR
+264,181,"Harlan, Anne",AUTHOR
+265,182,"Notman, Malkah T.",AUTHOR
+266,182,"Nadelson, Carol C.",AUTHOR
+267,183,Donald McKinley,AUTHOR
+268,184,"Ridley, Jeanne Clare",AUTHOR
+269,185,"McClelland, David C.",AUTHOR
+270,185,"Franz, Carol",AUTHOR
+271,186,"Furstenberg Jr., Frank F.",AUTHOR
+272,186,"Spanier, Graham B.",AUTHOR
+273,187,"Fleming, Jacqueline",AUTHOR
+274,188,"Kahn, Diana G.",AUTHOR
+275,189,"Feldman, Harold",AUTHOR
+276,189,"Feldman, Margaret",AUTHOR
+277,190,"Colby, Anne",AUTHOR
+278,190,"Ware, Norma",AUTHOR
+279,190,"Zuckerman, Diane M.",AUTHOR
+280,191,"Chester, Nia Lane",AUTHOR
+281,192,"Holton, Gerald",AUTHOR
+282,192,"Sonnert, Gerhard",AUTHOR
+283,193,"Eldridge, Natalie S.",AUTHOR
+284,194,"Roberts, Elizabeth J.",AUTHOR
+285,194,"Kline, David",AUTHOR
+286,194,"Gagnon, John",AUTHOR
+287,194,"Population Education, Inc.",AUTHOR
+288,195,"Bohen, Halcyone",AUTHOR
+289,196,"Ruskus, Joan",AUTHOR
+290,196,"Williamson, Cynthia L.",AUTHOR
+291,196,"Kelley, Fiona A.",AUTHOR
+292,197,"Earls, Felton J.",AUTHOR
+293,198,"Horner, Matina Souretis",AUTHOR
+294,199,"Nowlis, David",AUTHOR
+295,200,"Zuckerman, Diane M.",AUTHOR
+296,201,"Barnett, Rosalind C.",AUTHOR
+297,202,Woman's Day Magazine,AUTHOR
+298,202,Wellesley College Center for Research on Women,AUTHOR
+299,203,"Jackson, James",AUTHOR
+300,204,"Stewart, Abigail J.",AUTHOR
+301,205,"Bailey, Susan McGee",AUTHOR
+302,205,"Burrell, Barbara",AUTHOR
+303,205,"Ware, Norma",AUTHOR
+304,206,"Foltz, Deane (Coombs)",AUTHOR
+305,207,"Gilfus, Mary E.",AUTHOR
+306,208,"Plomin, Robert",AUTHOR
+307,208,"DeFries, John C.",AUTHOR
+308,208,"Fulker, David W.",AUTHOR
+309,209,Lawrence Kohlberg (Deceased),AUTHOR
+310,210,"Colby, Anne",AUTHOR
+311,211,"Earls, Felton J.",AUTHOR
+312,212,"Grebler, Leo",AUTHOR
+313,212,"Moore, Joan W.",AUTHOR
+314,212,"Guzman, Ralph C.",AUTHOR
+315,213,Barbara Solomon,AUTHOR
+316,214,"Johnson, Colleen Leahy",AUTHOR
+317,215,"Shinn, Marybeth",AUTHOR
+318,216,"Edwards, Carl N.",AUTHOR
+319,217,Ann F. Brunswick,AUTHOR
+320,218,Institute of Human Development,AUTHOR
+321,219,"Hurh, Won Moo",AUTHOR
+322,219,"Kim, Kwang Chung",AUTHOR
+323,220,"Crowne, Douglas P.",AUTHOR
+324,220,"Conn, Lance K.",AUTHOR
+325,220,"Marlowe, David",AUTHOR
+326,220,"Edwards, Carl N.",AUTHOR
+327,221,"Heins, Marilyn",AUTHOR
+328,222,"Lee, Benjamin",AUTHOR
+329,223,Eccles Jacquelynne S.,AUTHOR
+330,224,"Weiss, Robert S.",AUTHOR
+331,224,"Murray, Parkes, C.",AUTHOR
+332,225,"Vaillant, George",AUTHOR
+333,226,"Burrell, Barbara",AUTHOR
+334,227,"Weisner, Thomas",AUTHOR
+335,227,"Eiduson, Bernice",AUTHOR
+336,228,"Healey, Donna E.",AUTHOR
+337,229,"Rayman, Paula",AUTHOR
+338,230,"Newman, Katherine S.",AUTHOR
+339,231,Southwest Institute for Research on Women,AUTHOR
+340,232,"Stone, Phillip J.",AUTHOR
+341,233,"McFadden, Susan H.",AUTHOR
+342,233,"Peterson, James A.",AUTHOR
+343,234,"Shneidman, Edwin S.",AUTHOR
+344,235,"Lamont, Michèle",AUTHOR
+345,236,Larry Kurdek,AUTHOR
+346,237,"Selman, Robert L.",AUTHOR
+347,238,"Ainsworth, Mary S.",AUTHOR
+348,239,"James, Jacquelyn Boone",AUTHOR
+349,239,"Barnett, Rosalind C.",AUTHOR
+350,240,"Dill, Bonnie Thornton",AUTHOR
+351,241,"Murray, Henry A. ",AUTHOR
+352,242,"Stewart, Abigail J.",AUTHOR
+353,243,Elhanan Helpman,AUTHOR
+354,244,"McArthur, Charles C.",AUTHOR
+355,244,"King, Stanley H.",AUTHOR
+356,245,Elliot G. Mishler,AUTHOR
+357,245,Nancy E. Waxler,AUTHOR
+358,246,"Johnson, Colleen Leahy",AUTHOR
+359,247,"Bibring, Grete L.",AUTHOR
+360,248,"Gilligan, Carol",AUTHOR
+361,249,"Weiss, Robert S.",AUTHOR
+362,250,"Ybarra, Lea",AUTHOR
+363,251,"Hoffman, Lois Wladis",AUTHOR
+364,252,"Glueck, Sheldon",AUTHOR
+365,252,"Glueck, Eleanor Touroff",AUTHOR
+366,253,"Luker, Kristin",AUTHOR
+367,254,"Chicago Child Care Society; Shireman, Joan; and Vroegh, Karen",AUTHOR
+368,255,"Whitbourne, Susan Krauss",AUTHOR
+369,255,"Ebmeyer, Joyce B.",AUTHOR
+370,256,"Ullian, Dorothy Z.",AUTHOR
+371,257,"Kilson, Marion Dusser de Barenne",AUTHOR
+372,258,"Kaminer, Wendy",AUTHOR
+373,258,"Moore, Elizabeth",AUTHOR
+374,259,Susan Krauss Whitbourne,AUTHOR
+375,260,"Notman, Malkah T.",AUTHOR
+376,260,"Nadelson, Carol C.",AUTHOR
+377,261,"Almirol, Edwin B. (deceased)",AUTHOR
+378,262,"L'Hommedieu, Toni",AUTHOR
+379,263,"Whiting, Beatrice B.",AUTHOR
+380,263,"Whiting, John",AUTHOR
+381,264,"Stead, Bette Ann",AUTHOR
+382,265,"Thomas, David A.",AUTHOR
+383,266,"Epstein, Cynthia Fuchs",AUTHOR
+384,267,"Hardy-Fanta, Carol",AUTHOR
+385,268,"Kagan, Jerome (deceased)",AUTHOR
+386,269,"Dill, Bonnie Thornton",AUTHOR
+387,270,David C. McClelland,AUTHOR
+388,271,"Erickson, V. Lois",AUTHOR
+389,272,Engel Archive Committee of the University of Rochester,AUTHOR
+390,273,"Johnson, Colleen Leahy",AUTHOR
+391,274,"Shapiro, Ester R.",AUTHOR
+392,275,"Moen, Phyllis",AUTHOR
+393,275,"Dempster-McClain, Donna",AUTHOR
+394,276,"Willcox, William B.",AUTHOR
+395,276,"Willcox, Faith",AUTHOR
+396,277,"McClelland, David C.",AUTHOR
+397,278,"Shulik, Richard N.",AUTHOR
+398,279,Radcliffe Public Policy Center (defunct),AUTHOR
+399,280,"Gilligan, Carol",AUTHOR
+400,281,"Hulbert, Kathleen Day",AUTHOR
+401,282,U.S. Merit Systems Protection Board,AUTHOR
+402,282,Office of Merit Systems Review and Studies,AUTHOR
+403,282,"Market Facts, Inc.",AUTHOR
+404,283,"Osherson, Samuel D.",AUTHOR
+405,284,"Murray, Henry A.",AUTHOR
+406,285,"Dublin, Thomas",AUTHOR
+407,286,"Veroff, Joseph (Deceased)",AUTHOR
+408,286,"Douvan, Elizabeth",AUTHOR
+409,286,"Kulka, Richard",AUTHOR
+410,287,"Newman, Katherine S.",AUTHOR
+411,288,Center for Women and Work/National Commission on Working Women,AUTHOR
+412,289,"Arnold, Karen",AUTHOR
+413,290,Henry A. Murray Research Center,AUTHOR
+414,291,"Brett, Jeanne M.",AUTHOR
+415,292,"Lopata, Helena Z.",AUTHOR
+416,293,"Lachman, Margie E.",AUTHOR
+417,293,"James, Jacquelyn Boone",AUTHOR
+418,294,Ken R. Fogelman,AUTHOR
+419,294,John Fox,AUTHOR
+420,294,Peter M. Shepherd,AUTHOR
+421,295,"Rumbaut, Rubén G.",AUTHOR
+422,296,"Keel, Pamela Kohl",AUTHOR
+423,297,"Ware, Norma C.",AUTHOR
+424,298,"Community Council, Inc.",AUTHOR
+425,299,"Horner, Matina Souretis",AUTHOR
+426,300,"Ybarra, Lea",AUTHOR
+427,301,"Sears (Deceased), Robert R.",AUTHOR
+428,301,"Maccoby, Eleanor E.",AUTHOR
+429,301,"Levin, Harry",AUTHOR
+430,302,Jack Block,AUTHOR
+431,303,"Wilson, Melvin N.",AUTHOR
+432,304,"Fox, Greer Litton",AUTHOR
+433,305,Radcliffe Public Policy Center (Defunct),AUTHOR
+434,306,"Furstenberg Jr., Frank F.",AUTHOR
+435,307,"Constance, Ahrons",AUTHOR
+436,308,Stuart T. Hauser,AUTHOR
+437,308,Alan M. Jacobson,AUTHOR
+438,308,Gil G. Noam,AUTHOR
+439,308,Sally I. Powers,AUTHOR
+440,309,"Tangri, Sandra Schwartz",AUTHOR
+441,310,"McAdoo, Harriette Pipes",AUTHOR
+442,311,"Bender, Henry E.",AUTHOR
+443,312,"Markman, Howard J.",AUTHOR
+444,313,"Markus, Hazel Rose",AUTHOR
+445,313,"Campbell, Jean",AUTHOR
+446,314,"Trachtenberg, Francine Zorn",AUTHOR
+447,315,"Payne, Edmund C.",AUTHOR
+448,315,"Notman, Malkah T.",AUTHOR
+449,315,"Kravitz, Arthur",AUTHOR
+450,316,Louis M. Terman,AUTHOR
+451,316,Robert R. Sears,AUTHOR
+452,316,Lee Cronbach,AUTHOR
+453,316,Pauline S. Sears,AUTHOR
+454,316,Albert Hastorf,AUTHOR
+455,317,"Simpson, Gwyned",AUTHOR
+456,318,"Gallimore, Ronald",AUTHOR
+457,319,David C. Howell,AUTHOR
+458,319,Hans R. Huessy,AUTHOR
+459,320,"Hoffman, Lois Wladis",AUTHOR
+460,321,"Rumbaut, Rubén G.",AUTHOR
+461,322,"Connolly, James",AUTHOR
+462,323,"Gurin, Gerald",AUTHOR
+463,324,"Deaux, Kay",AUTHOR
+464,325,Henry A. Murray Research Center,AUTHOR
+465,326,"Zuckerman, Diane M.",AUTHOR
+466,327,"Horner, Matina Souretis",AUTHOR
+467,328,"Coltrane, Scott",AUTHOR
+468,328,"Valdez, Elsa",AUTHOR
+469,329,"Lex, Louise Ann Moede",AUTHOR
+470,330,"Thomas, Alexander",AUTHOR
+471,330,"Chess, Stella",AUTHOR
+472,330,"Lerner, Richard",AUTHOR
+473,330,"Lerner, Jacqueline",AUTHOR
+474,331,"Heath, Douglas H.",AUTHOR
+475,332,"Glueck, Sheldon",AUTHOR
+476,333,"Stewart, Abigail J.",AUTHOR
+477,334,"Johnson, Marilyn",AUTHOR
+478,335,"McClelland, David C.",AUTHOR
+479,336,"Winter, David G.",AUTHOR
+480,336,"McClelland, David C.",AUTHOR
+481,336,"Stewart, Abigail J.",AUTHOR
+482,337,"Horst, Leslie",AUTHOR
+483,338,Larry Kurdek,AUTHOR
+484,339,"Trachtenberg, Francine Zorn",AUTHOR
+485,340,Henry A. Murray Research Archive,AUTHOR
+486,340,Arthur and Elizabeth Schlesinger Library,AUTHOR
+487,341,"Sears, Robert R.",AUTHOR
+488,341,"Maccoby, Eleanor",AUTHOR
+489,341,"Levin, Harry",AUTHOR
+490,342,"Vaillant, George E.",AUTHOR
+491,342,"McArthur, Charles C.",AUTHOR
+492,342,"Bock, Arlie",AUTHOR
+493,343,"Block, Jack",AUTHOR
+494,343,"Block, Jeanne H.",AUTHOR
+495,344,"Gray, Susan Walton",AUTHOR
+496,345,"Roberto, Karen A.",AUTHOR
+497,346,"Stewart, Abigail J.",AUTHOR
+498,347,"Zeitlin, Katherine Chaffee",AUTHOR
+499,348,"Richardson, Nancy Jean",AUTHOR
+500,349,"Rogler, Lloyd H.",AUTHOR
+501,350,Faye J. Crosby,AUTHOR
+502,351,"Simmons, Roberta G.",AUTHOR
+503,351,"Blyth, Dale A.",AUTHOR
+504,352,"Bradford, Judith",AUTHOR
+505,352,"Ryan, Caitlin",AUTHOR
+506,352,The National Lesbian and Gay Health Foundation,AUTHOR
+507,353,"Grossman, Frances K.",AUTHOR
+508,354,Career and Family Center,AUTHOR
+509,354,Catalyst,AUTHOR
+510,355,"Crandall, Virginia C.",AUTHOR
+511,356,"Feldberg, Rosalyn L.",AUTHOR
+512,356,"Glenn, Evelyn Nakano",AUTHOR
+513,357,"Huffaker, Grace",AUTHOR
+514,357,"Platt, Marjorie",AUTHOR
+515,357,"Breskin, Julie",AUTHOR
+516,358,"Brett, Belle",AUTHOR
+517,359,"Notman, Malkah T.",AUTHOR
+518,359,"Nadelson, Carol C.",AUTHOR
+519,360,"Stewart, Abigail J.",AUTHOR
+520,361,"Finn, Alice N.",AUTHOR
+521,362,Rosalind C. Barnett,AUTHOR
+522,362,Grace K. Baruch,AUTHOR
+523,363,"Feldman, Harold",AUTHOR
+524,364,"Salkind, Elizabeth J.",AUTHOR
+525,365,"Blumenthal, Janet",AUTHOR
+526,366,"Puryear, Gwendolyn R.",AUTHOR
+527,366,"Mednick, Martha T.",AUTHOR
+528,367,"Farmer, Helen S.",AUTHOR
+529,368,"Gibson, Margaret A.",AUTHOR
+530,369,"Petersen, Anne C.",AUTHOR
+531,370,Administration for Children and Families,AUTHOR
+532,371,"Jacklin, Carol Nagy",AUTHOR
+533,371,"Maccoby, Eleanor",AUTHOR
+534,372,Administration for Children and Families,AUTHOR
+535,373,Administration for Children and Families,AUTHOR
+536,374,"Schwartz, Pepper",AUTHOR
+537,374,"Blumstein, Philip",AUTHOR
+538,375,Administration for Children and Families,AUTHOR
+539,376,"Jessor, Richard",AUTHOR
+540,376,"Jessor, Shirley L.",AUTHOR
+541,377,Administration for Children and Families,AUTHOR
+542,378,Administration for Children and Families,AUTHOR
+543,379,Administration for Children and Families,AUTHOR
+544,380,Administration for Children and Families,AUTHOR
+545,381,Administration for Children and Families,AUTHOR
+546,382,"Thomas, Joan H.",AUTHOR
+547,383,"Ericksen, Karen Paige",AUTHOR
+548,384,"Rice, Virginia Gould",AUTHOR
+549,385,"Thompson, Laura Maud (deceased)",AUTHOR
+550,386,"Wantchekon, Leonard",AUTHOR
+551,387,ADA Dataverse,UNKNOWN

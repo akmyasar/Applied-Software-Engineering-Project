@@ -1,0 +1,180 @@
+﻿Total lines: 179
+1: ∩╗┐import sys
+2: import requests
+3: from pathlib import Path
+4: 
+5: sys.path.insert(0, str(Path(__file__).parent.parent))
+6: 
+7: from db.database import (upsert_repository, insert_project, project_doi_exists,
+8:                           insert_file, insert_keyword, insert_person_role, insert_license)
+9: from pipeline.downloader import download_file, polite_sleep
+10: 
+11: REPO_NAME       = "harvard-murray-archive"
+12: REPO_URL        = "https://www.murray.harvard.edu"
+13: DATAVERSE_BASE  = "https://dataverse.harvard.edu"
+14: BASE_API        = f"{DATAVERSE_BASE}/api"
+15: SUBTREE         = "mra"
+16: QUERY_STRING    = "*"
+17: DOWNLOAD_METHOD = "API-CALL"
+18: DATA_ROOT       = Path(__file__).parent.parent / "data" / REPO_NAME
+19: PER_PAGE        = 100
+20: POLITE_DELAY    = 2.0
+21: 
+22: def _session():
+23:     s = requests.Session()
+24:     s.headers.update({"User-Agent": "QDArchive-Seeder/1.0 (FAU Erlangen; student 23025328)"})
+25:     return s
+26: 
+27: def search_datasets(session):
+28:     all_items = []
+29:     start = 0
+30:     while True:
+31:         url = (f"{BASE_API}/search?q={QUERY_STRING}&subtree={SUBTREE}"
+32:                f"&type=dataset&per_page={PER_PAGE}&start={start}")
+33:         print(f"  [MRA] Searching: start={start}")
+34:         try:
+35:             resp = session.get(url, timeout=30)
+36:         except requests.exceptions.RequestException as exc:
+37:             print(f"  [MRA] Search failed: {exc}")
+38:             break
+39:         if resp.status_code != 200:
+40:             print(f"  [MRA] HTTP {resp.status_code}")
+41:             break
+42:         data  = resp.json().get("data", {})
+43:         items = data.get("items", [])
+44:         total = data.get("total_count", 0)
+45:         all_items.extend(items)
+46:         print(f"  [MRA] Got {len(items)} items (total={total})")
+47:         if start + PER_PAGE >= total:
+48:             break
+49:         start += PER_PAGE
+50:         polite_sleep(POLITE_DELAY)
+51:     return all_items
+52: 
+53: def fetch_dataset_metadata(session, global_id):
+54:     url = f"{BASE_API}/datasets/:persistentId/?persistentId={global_id}"
+55:     try:
+56:         resp = session.get(url, timeout=30)
+57:     except requests.exceptions.RequestException as exc:
+58:         print(f"    [MRA] Metadata fetch failed: {exc}")
+59:         return None
+60:     if resp.status_code != 200:
+61:         print(f"    [MRA] HTTP {resp.status_code} for {global_id}")
+62:         return None
+63:     return resp.json().get("data", {})
+64: 
+65: def _get_all_fields(metadata):
+66:     fields = []
+67:     for block in metadata.get("metadataBlocks", {}).values():
+68:         fields.extend(block.get("fields", []))
+69:     return fields
+70: 
+71: def _extract_field(fields, type_name):
+72:     for f in fields:
+73:         if f.get("typeName") == type_name:
+74:             val = f.get("value")
+75:             if isinstance(val, list):
+76:                 parts = []
+77:                 for item in val:
+78:                     if isinstance(item, str):
+79:                         parts.append(item)
+80:                     elif isinstance(item, dict):
+81:                         for v in item.values():
+82:                             if isinstance(v, dict) and "value" in v:
+83:                                 parts.append(str(v["value"]))
+84:                 return "; ".join(parts) if parts else None
+85:             return str(val) if val else None
+86:     return None
+87: 
+88: def process_dataset(session, search_item, repo_id):
+89:     global_id = search_item.get("global_id", "")
+90:     if not global_id:
+91:         return
+92:     doi = global_id.replace("doi:", "").replace("hdl:", "")
+93:     if project_doi_exists(doi):
+94:         print(f"    [MRA] Already processed {doi}, skipping.")
+95:         return
+96:     print(f"    [MRA] Processing: {global_id}")
+97:     polite_sleep(POLITE_DELAY)
+98:     meta = fetch_dataset_metadata(session, global_id)
+99:     if not meta:
+100:         return
+101:     latest  = meta.get("latestVersion", {})
+102:     fields  = _get_all_fields(latest)
+103:     title       = _extract_field(fields, "title") or search_item.get("name", "")
+104:     description = _extract_field(fields, "dsDescription") or search_item.get("description", "")
+105:     language    = _extract_field(fields, "language")
+106:     upload_date = (latest.get("releaseTime") or "")[:10]
+107:     version     = f"{latest.get('versionNumber','')}.{latest.get('versionMinorNumber','')}".strip(".")
+108:     project_url = search_item.get("url", f"{DATAVERSE_BASE}/dataset.xhtml?persistentId={global_id}")
+109:     doi_slug    = doi.replace("/", "_").replace(":", "_")
+110:     ver_folder  = f"v{version}" if version else "v1"
+111:     project_id = insert_project(
+112:         query_string=QUERY_STRING, repository_id=repo_id, repository_url=REPO_URL,
+113:         project_url=project_url, version=version, title=title, description=description,
+114:         language=language, doi=doi, upload_date=upload_date,
+115:         download_repository_folder=REPO_NAME, download_project_folder=doi_slug,
+116:         download_version_folder=ver_folder, download_method=DOWNLOAD_METHOD)
+117:     for f in fields:
+118:         if f.get("typeName") == "author":
+119:             for entry in f.get("value", []):
+120:                 if isinstance(entry, dict):
+121:                     nf = entry.get("authorName", {})
+122:                     name = nf.get("value", "") if isinstance(nf, dict) else str(nf)
+123:                     if name:
+124:                         insert_person_role(project_id, name, "AUTHOR")
+125:     for f in fields:
+126:         if f.get("typeName") == "keyword":
+127:             for kw in f.get("value", []):
+128:                 if isinstance(kw, dict):
+129:                     kv = kw.get("keywordValue", {})
+130:                     val = kv.get("value", "") if isinstance(kv, dict) else str(kv)
+131:                     if val:
+132:                         insert_keyword(project_id, val)
+133:     terms = latest.get("termsOfUse", "") or latest.get("license", {})
+134:     if isinstance(terms, dict):
+135:         license_str = terms.get("name", "") or terms.get("uri", "")
+136:     else:
+137:         license_str = str(terms) if terms else ""
+138:     insert_license(project_id, license_str or "UNKNOWN")
+139:     dest_root = DATA_ROOT / doi_slug / ver_folder
+140:     dest_root.mkdir(parents=True, exist_ok=True)
+141:     files_list = latest.get("files", [])
+142:     print(f"    [MRA] {len(files_list)} files for project_id={project_id}")
+143:     for file_entry in files_list:
+144:         df           = file_entry.get("dataFile", {})
+145:         file_id      = df.get("id")
+146:         filename     = df.get("filename", f"file_{file_id}")
+147:         content_type = df.get("contentType", "")
+148:         file_type    = content_type.split("/")[-1] if content_type else Path(filename).suffix.lstrip(".")
+149:         restricted   = file_entry.get("restricted", False)
+150:         if restricted or df.get("embargo"):
+151:             insert_file(project_id, filename, file_type, "FAILED_LOGIN_REQUIRED")
+152:             print(f"      [MRA] RESTRICTED: {filename}")
+153:             continue
+154:         download_url = f"{BASE_API}/access/datafile/{file_id}"
+155:         dest_path    = dest_root / filename
+156:         polite_sleep(0.5)
+157:         status, nbytes = download_file(download_url, dest_path)
+158:         insert_file(project_id, filename, file_type, status)
+159:         print(f"      [MRA] {status}: {filename} ({nbytes} bytes)")
+160: 
+161: def run(max_datasets=None):
+162:     print("\n" + "="*60)
+163:     print("Murray Research Archive Scraper (Harvard Dataverse)")
+164:     print("="*60)
+165:     session = _session()
+166:     repo_id = upsert_repository(REPO_NAME, REPO_URL)
+167:     print(f"[MRA] Repository id={repo_id}")
+168:     items = search_datasets(session)
+169:     print(f"[MRA] Total datasets found: {len(items)}")
+170:     if max_datasets:
+171:         items = items[:max_datasets]
+172:     for i, item in enumerate(items, 1):
+173:         print(f"\n[MRA] Dataset {i}/{len(items)}")
+174:         try:
+175:             process_dataset(session, item, repo_id)
+176:         except Exception as exc:
+177:             print(f"  [MRA] ERROR: {exc}")
+178:         polite_sleep(POLITE_DELAY)
+179:     print("\n[MRA] Done.")

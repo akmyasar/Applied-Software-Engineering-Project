@@ -1,0 +1,29 @@
+# Normalise line endings for text, but never touch binary deliverables.
+#
+# core.autocrlf is enabled on this machine, and git guesses whether a file is
+# text by sampling its first bytes. The ReportLab PDF has no NUL byte early on,
+# so git guessed "text" and announced it would rewrite its line endings, which
+# corrupts the binary streams inside the PDF on checkout. The submitted report,
+# spreadsheet and database must round-trip byte for byte.
+
+* text=auto
+
+*.pdf   binary
+*.xlsx  binary
+*.xls   binary
+*.db    binary
+*.sqlite binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.zip   binary
+*.7z    binary
+*.tar   binary
+*.gz    binary
+*.doc   binary
+*.docx  binary
+*.sav   binary
+*.por   binary
+*.dta   binary
+*.sas7bdat binary

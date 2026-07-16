@@ -6,6 +6,7 @@ import unittest
 
 from part2 import config, isic
 from part2.build_db import derive_project_type
+from part2.charts import wrap_label
 from part2.classifier import MAX_NGRAM, IsicClassifier, normalize
 from part2.lexicon import LEXICON
 from part2.run_classification import tokenize_filename
@@ -136,6 +137,22 @@ class TestLexiconIsReachable(unittest.TestCase):
         for division in LEXICON:
             self.assertIn(division, isic.DIVISIONS,
                           f"{division} is not an ISIC Rev. 5 division")
+
+
+class TestChartLabels(unittest.TestCase):
+    """Step 4d requires the full class name as the histogram bin name."""
+
+    def test_no_class_name_is_ever_truncated(self):
+        for code in isic.DIVISION_CODES:
+            label = wrap_label(isic.full_class_name(code))
+            self.assertNotIn("…", label,
+                             f"division {code} is truncated in its bin label")
+
+    def test_wrapping_preserves_the_words(self):
+        for code in isic.DIVISION_CODES:
+            full = isic.full_class_name(code)
+            self.assertEqual(wrap_label(full).replace("\n", " "), full,
+                             f"division {code} loses text when wrapped")
 
 
 class TestClassifier(unittest.TestCase):

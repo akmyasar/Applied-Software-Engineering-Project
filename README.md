@@ -324,7 +324,7 @@ a new database.
 ```bash
 pip install -r requirements.txt
 python -m part2                      # runs all steps end to end
-python -m unittest discover -s part2/tests -t .   # 28 tests
+python -m unittest discover -s part2/tests -t .   # the test suite
 ```
 
 Individual steps:
@@ -442,11 +442,26 @@ classified; 246 projects at `HIGH` confidence, 106 at `MEDIUM`.
 | Spreadsheet | `reports/23025328-sq26-classification.xlsx` | 4c |
 | Report | `reports/23025328-sq26-classification.pdf` | 4d |
 
-The PDF contains, per repository, a histogram of the primary classes with the
-full class name as the bin name and the count printed on top of each bar, a
-rank-ordered top-20 table, and comments on the findings. All graphics are
-**vector** (verified: zero raster image objects in the PDF), so they stay sharp
-when zoomed.
+The PDF (`part2/report_pdf.py`, figures in `part2/charts.py`) is typeset with
+ReportLab as a project report: cover page, generated table of contents, numbered
+sections, running headers and page numbers, and numbered figures and tables. Its
+structure is
+
+1. Introduction — task and data provenance
+2. Method — merging, typing, taxonomy, classifier design, scope
+3. Results overview — project types and the repository × type distributions
+4. / 5. One section per repository — types, histogram, ranked table, comments
+6. Technical challenges with the data
+7. Conclusion
+8. Appendix — reproducing the results
+
+Per repository it contains a histogram of the primary classes with the full
+class name as the bin name and the count printed on top of each bar, a
+rank-ordered top-20 table, and comments on the findings. Figures are drawn with
+matplotlib, converted to SVG and embedded as **vector** (verified: zero raster
+image objects in the PDF), so they stay sharp when zoomed. Histograms sit on
+landscape pages because a bin labelled with a full ISIC class name needs the
+width to stay legible.
 
 ## Technical challenges with the data (Part 2)
 

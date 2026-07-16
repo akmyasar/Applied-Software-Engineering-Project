@@ -2,7 +2,8 @@
 
 Fill in the form at https://forms.gle/wxTGQFBQbBvFi3N69 once per repository.
 
-## Repository 1: harvard-murray-archive
+## Repository 1: Harvard Murray Research Archive
+- Identifier in the database: harvard-murray-archive (repository_id 1)
 - URL: https://www.murray.harvard.edu
 - Projects in total: 386
 - Project types found:
@@ -18,7 +19,8 @@ Fill in the form at https://forms.gle/wxTGQFBQbBvFi3N69 once per repository.
     4. 88 Social work activities without accommodation: 10
     5. 94 Activities of membership organizations: 7
 
-## Repository 2: ada
+## Repository 2: Australian Data Archive (ADA)
+- Identifier in the database: ada (repository_id 2)
 - URL: https://dataverse.ada.edu.au
 - Projects in total: 1
 - Project types found:

@@ -17,6 +17,20 @@ REPORT_DIR = ROOT / "reports"
 # Extra seeding databases to merge in (Part 2 Step 1). Empty = own data only.
 EXTRA_SEEDING_DBS = []
 
+# Presentation names for the repositories. REPOSITORIES.name holds the folder
+# slug the Part 1 pipeline harvested into, which is the identifier everywhere in
+# the data; these are only for the prose of the report, and anything not listed
+# falls back to the slug itself.
+REPOSITORY_DISPLAY_NAMES = {
+    "harvard-murray-archive": "Harvard Murray Research Archive",
+    "ada": "Australian Data Archive (ADA)",
+}
+
+
+def display_name(name):
+    return REPOSITORY_DISPLAY_NAMES.get((name or "").strip(), name)
+
+
 # Sentinel records written by the Part 1 scrapers to document a repository that
 # could not be harvested at all. They carry an invented file name and therefore
 # must not be typed from their file extensions: they are NOT_A_PROJECT.

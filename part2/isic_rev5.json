@@ -1,0 +1,466 @@
+{
+  "standard": "ISIC Rev. 5",
+  "source": "https://unstats.un.org/UNSDWebsite/statcom/session_54/documents/BG-3j-ISIC-Rev5-E.pdf",
+  "note": "Draft ISIC Rev.5 structure, Task Team on ISIC, 2 Feb 2023; endorsed by the UN Statistical Commission at its 54th session (March 2023). Sections (1 letter) and divisions (2 digits) only - the project classifies down to division level.",
+  "sections": {
+    "A": "Agriculture, forestry and fishing",
+    "B": "Mining and quarrying",
+    "C": "Manufacturing",
+    "D": "Electricity, gas, steam and air conditioning supply",
+    "E": "Water supply; sewerage, waste management and remediation activities",
+    "F": "Construction",
+    "G": "Wholesale and retail trade",
+    "H": "Transportation and storage",
+    "I": "Accommodation and food service activities",
+    "J": "Publishing, broadcasting, and content production and distribution activities",
+    "K": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+    "L": "Financial and insurance activities",
+    "M": "Real estate activities",
+    "N": "Professional, scientific and technical activities",
+    "O": "Administrative and support service activities",
+    "P": "Public administration and defence; compulsory social security",
+    "Q": "Education",
+    "R": "Human health and social work activities",
+    "S": "Arts, sports and recreation",
+    "T": "Other service activities",
+    "U": "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
+    "V": "Activities of extraterritorial organizations and bodies"
+  },
+  "divisions": [
+    {
+      "section": "A",
+      "division": "01",
+      "name": "Crop and animal production, hunting and related service activities"
+    },
+    {
+      "section": "A",
+      "division": "02",
+      "name": "Forestry and logging"
+    },
+    {
+      "section": "A",
+      "division": "03",
+      "name": "Fishing and aquaculture"
+    },
+    {
+      "section": "B",
+      "division": "05",
+      "name": "Mining of coal and lignite"
+    },
+    {
+      "section": "B",
+      "division": "06",
+      "name": "Extraction of crude petroleum and natural gas"
+    },
+    {
+      "section": "B",
+      "division": "07",
+      "name": "Mining of metal ores"
+    },
+    {
+      "section": "B",
+      "division": "08",
+      "name": "Other mining and quarrying"
+    },
+    {
+      "section": "B",
+      "division": "09",
+      "name": "Mining support service activities"
+    },
+    {
+      "section": "C",
+      "division": "10",
+      "name": "Manufacture of food products"
+    },
+    {
+      "section": "C",
+      "division": "11",
+      "name": "Manufacture of beverages"
+    },
+    {
+      "section": "C",
+      "division": "12",
+      "name": "Manufacture of tobacco products"
+    },
+    {
+      "section": "C",
+      "division": "13",
+      "name": "Manufacture of textiles"
+    },
+    {
+      "section": "C",
+      "division": "14",
+      "name": "Manufacture of wearing apparel"
+    },
+    {
+      "section": "C",
+      "division": "15",
+      "name": "Manufacture of leather and related products"
+    },
+    {
+      "section": "C",
+      "division": "16",
+      "name": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"
+    },
+    {
+      "section": "C",
+      "division": "17",
+      "name": "Manufacture of paper and paper products"
+    },
+    {
+      "section": "C",
+      "division": "18",
+      "name": "Printing and reproduction of recorded media"
+    },
+    {
+      "section": "C",
+      "division": "19",
+      "name": "Manufacture of coke and refined petroleum products"
+    },
+    {
+      "section": "C",
+      "division": "20",
+      "name": "Manufacture of chemicals and chemical products"
+    },
+    {
+      "section": "C",
+      "division": "21",
+      "name": "Manufacture of basic pharmaceutical products and pharmaceutical preparations"
+    },
+    {
+      "section": "C",
+      "division": "22",
+      "name": "Manufacture of rubber and plastic products"
+    },
+    {
+      "section": "C",
+      "division": "23",
+      "name": "Manufacture of other non-metallic mineral products"
+    },
+    {
+      "section": "C",
+      "division": "24",
+      "name": "Manufacture of basic metals"
+    },
+    {
+      "section": "C",
+      "division": "25",
+      "name": "Manufacture of fabricated metal products, except machinery and equipment"
+    },
+    {
+      "section": "C",
+      "division": "26",
+      "name": "Manufacture of computer, electronic and optical products"
+    },
+    {
+      "section": "C",
+      "division": "27",
+      "name": "Manufacture of electrical equipment"
+    },
+    {
+      "section": "C",
+      "division": "28",
+      "name": "Manufacture of machinery and equipment n.e.c."
+    },
+    {
+      "section": "C",
+      "division": "29",
+      "name": "Manufacture of motor vehicles, trailers and semi-trailers"
+    },
+    {
+      "section": "C",
+      "division": "30",
+      "name": "Manufacture of other transport equipment"
+    },
+    {
+      "section": "C",
+      "division": "31",
+      "name": "Manufacture of furniture"
+    },
+    {
+      "section": "C",
+      "division": "32",
+      "name": "Other manufacturing"
+    },
+    {
+      "section": "C",
+      "division": "33",
+      "name": "Repair, maintenance and installation of machinery and equipment"
+    },
+    {
+      "section": "D",
+      "division": "35",
+      "name": "Electricity, gas, steam and air conditioning supply"
+    },
+    {
+      "section": "E",
+      "division": "36",
+      "name": "Water collection, treatment and supply"
+    },
+    {
+      "section": "E",
+      "division": "37",
+      "name": "Sewerage"
+    },
+    {
+      "section": "E",
+      "division": "38",
+      "name": "Waste collection, treatment and disposal, and recovery activities"
+    },
+    {
+      "section": "E",
+      "division": "39",
+      "name": "Remediation and other waste management service activities"
+    },
+    {
+      "section": "F",
+      "division": "41",
+      "name": "Construction of residential and non-residential buildings"
+    },
+    {
+      "section": "F",
+      "division": "42",
+      "name": "Civil engineering"
+    },
+    {
+      "section": "F",
+      "division": "43",
+      "name": "Specialized construction activities"
+    },
+    {
+      "section": "G",
+      "division": "46",
+      "name": "Wholesale trade"
+    },
+    {
+      "section": "G",
+      "division": "47",
+      "name": "Retail trade"
+    },
+    {
+      "section": "H",
+      "division": "49",
+      "name": "Land transport and transport via pipelines"
+    },
+    {
+      "section": "H",
+      "division": "50",
+      "name": "Water transport"
+    },
+    {
+      "section": "H",
+      "division": "51",
+      "name": "Air transport"
+    },
+    {
+      "section": "H",
+      "division": "52",
+      "name": "Warehousing and support activities for transportation"
+    },
+    {
+      "section": "H",
+      "division": "53",
+      "name": "Postal and courier activities"
+    },
+    {
+      "section": "I",
+      "division": "55",
+      "name": "Accommodation"
+    },
+    {
+      "section": "I",
+      "division": "56",
+      "name": "Food and beverage service activities"
+    },
+    {
+      "section": "J",
+      "division": "58",
+      "name": "Publishing activities"
+    },
+    {
+      "section": "J",
+      "division": "59",
+      "name": "Motion picture, video and television programme production, sound recording and music publishing activities"
+    },
+    {
+      "section": "J",
+      "division": "60",
+      "name": "Programming, broadcasting, news agency and other content distribution activities"
+    },
+    {
+      "section": "K",
+      "division": "61",
+      "name": "Telecommunications"
+    },
+    {
+      "section": "K",
+      "division": "62",
+      "name": "Computer programming, consultancy and related activities"
+    },
+    {
+      "section": "K",
+      "division": "63",
+      "name": "Computing infrastructure, data processing, hosting, and other information service activities"
+    },
+    {
+      "section": "L",
+      "division": "64",
+      "name": "Financial service activities, except insurance and pension funding"
+    },
+    {
+      "section": "L",
+      "division": "65",
+      "name": "Insurance, reinsurance and pension funding, except compulsory social security"
+    },
+    {
+      "section": "L",
+      "division": "66",
+      "name": "Activities auxiliary to financial service and insurance activities"
+    },
+    {
+      "section": "M",
+      "division": "68",
+      "name": "Real estate activities"
+    },
+    {
+      "section": "N",
+      "division": "69",
+      "name": "Legal and accounting activities"
+    },
+    {
+      "section": "N",
+      "division": "70",
+      "name": "Activities of head offices; management consultancy activities"
+    },
+    {
+      "section": "N",
+      "division": "71",
+      "name": "Architectural and engineering activities; technical testing and analysis"
+    },
+    {
+      "section": "N",
+      "division": "72",
+      "name": "Scientific research and development"
+    },
+    {
+      "section": "N",
+      "division": "73",
+      "name": "Activities of advertising, market research and public relations"
+    },
+    {
+      "section": "N",
+      "division": "74",
+      "name": "Other professional, scientific and technical activities"
+    },
+    {
+      "section": "N",
+      "division": "75",
+      "name": "Veterinary activities"
+    },
+    {
+      "section": "O",
+      "division": "77",
+      "name": "Rental and leasing activities"
+    },
+    {
+      "section": "O",
+      "division": "78",
+      "name": "Employment activities"
+    },
+    {
+      "section": "O",
+      "division": "79",
+      "name": "Travel agency, tour operator, and other travel related activities"
+    },
+    {
+      "section": "O",
+      "division": "80",
+      "name": "Investigation and security activities"
+    },
+    {
+      "section": "O",
+      "division": "81",
+      "name": "Services to buildings and landscape activities"
+    },
+    {
+      "section": "O",
+      "division": "82",
+      "name": "Office administrative, office support and other business support activities"
+    },
+    {
+      "section": "P",
+      "division": "84",
+      "name": "Public administration and defence; compulsory social security"
+    },
+    {
+      "section": "Q",
+      "division": "85",
+      "name": "Education"
+    },
+    {
+      "section": "R",
+      "division": "86",
+      "name": "Human health activities"
+    },
+    {
+      "section": "R",
+      "division": "87",
+      "name": "Residential care activities"
+    },
+    {
+      "section": "R",
+      "division": "88",
+      "name": "Social work activities without accommodation"
+    },
+    {
+      "section": "S",
+      "division": "90",
+      "name": "Arts creation and performing arts activities"
+    },
+    {
+      "section": "S",
+      "division": "91",
+      "name": "Library, archives, museum and other cultural activities"
+    },
+    {
+      "section": "S",
+      "division": "92",
+      "name": "Gambling and betting activities"
+    },
+    {
+      "section": "S",
+      "division": "93",
+      "name": "Sports activities and amusement and recreation activities"
+    },
+    {
+      "section": "T",
+      "division": "94",
+      "name": "Activities of membership organizations"
+    },
+    {
+      "section": "T",
+      "division": "95",
+      "name": "Repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles"
+    },
+    {
+      "section": "T",
+      "division": "96",
+      "name": "Personal service activities"
+    },
+    {
+      "section": "U",
+      "division": "97",
+      "name": "Activities of households as employers of domestic personnel"
+    },
+    {
+      "section": "U",
+      "division": "98",
+      "name": "Undifferentiated goods- and services-producing activities of private households for own use"
+    },
+    {
+      "section": "V",
+      "division": "99",
+      "name": "Activities of extraterritorial organizations and bodies"
+    }
+  ]
+}
